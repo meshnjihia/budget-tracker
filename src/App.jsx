@@ -6,7 +6,7 @@ function App() {
   return (
     <BrowserRouter>
       <header className="w-full flex justify-between items-center bg-white sm:px-8 px-4 p-4 border-b border-b-[#e6ebf4]">
-        <Link to="/" className="flex items-center mx-auto flex-1">
+        <Link to="/create-budget" className="flex items-center mx-auto flex-1">
           <img src={Logo} alt="" className="w-16 object-contain" />
           <h2 className="font-semibold text-lf tracking-wide bg-inherit hover:scale-110 duration-75 text-teal-400">
             <span className="font-bold text-zinc-700">Budget</span> App
